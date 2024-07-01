@@ -347,8 +347,8 @@ header .gnb-wrapper .right-btns-area .mobileBtn{
 
 /* 메인페이지 - 메인 배너 영역 */
 .main-wrapper {
-    padding: 0px 50px 60px 50px;
-    height: 92%;
+    padding: 0px 50px 50px 50px;
+    height: 76%;
 }
 .main-wrapper .inner {
     background: url(../images/main/main_banner_01.png);
@@ -363,7 +363,7 @@ header .gnb-wrapper .right-btns-area .mobileBtn{
     max-width: 1200px;
     margin: 0 auto;
     position: absolute;
-    top: 36%;
+    top: 31%;
     left: 0;
     right: 0;
 }

@@ -321,9 +321,7 @@ header .gnb-wrapper .right-btns-area .mobileBtn{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.lnb-wrapper .lnb ul > li {
-    width: 12%;
+    gap: 30px;
 }
 .lnb-wrapper .lnb ul > li > a{
     display: flex;
@@ -541,6 +539,10 @@ header .gnb-wrapper .right-btns-area .mobileBtn{
     background: url(../images/contents/subpage_bg_06.png);
     background-size: cover;
 }
+.title-wrapper.gnb_0304{
+    background: url(../images/contents/subpage_bg_07.png);
+    background-size: cover;
+}
 .title-wrapper .inner {
     position: relative;
     width: 1200px;
@@ -623,6 +625,16 @@ header .gnb-wrapper .right-btns-area .mobileBtn{
     height: 1px;
     border: 0;
     margin: 10px 0px;
+}
+.content-wrapper .inner .post{
+    text-align: left;
+}
+.content-wrapper .inner .post .post-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: 8px;
+    margin-top: 10px;
 }
 .labInfo-wrapper .inner {
     position: relative;
